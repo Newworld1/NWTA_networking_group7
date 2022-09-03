@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hms_project.BookingPage">
+    <children>
+        <AnchorPane layoutX="-23.0" prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: orange;" />
+        <Text layoutX="277.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Booking Page" wrappingWidth="130.13671875">
+            <font>
+                <Font name="Arial Bold" size="19.0" />
+            </font>
+        </Text>
+        <TextField fx:id="txt_bookingA" layoutX="258.0" layoutY="79.0" prefHeight="25.0" prefWidth="213.0" promptText="Enter Booking Amount" />
+        <TextField fx:id="txt_studentId" layoutX="258.0" layoutY="140.0" prefHeight="25.0" prefWidth="213.0" promptText="Enter Student ID" />
+        <TextField fx:id="txt_roomId" layoutX="258.0" layoutY="200.0" prefHeight="25.0" prefWidth="213.0" promptText="Enter Room ID" />
+        <Button fx:id="bnt_submite" layoutX="328.0" layoutY="263.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="95.0" text="Submite" />
+        <Button fx:id="bnt_next" layoutX="439.0" layoutY="325.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="95.0" text="Next" />
+        <Button fx:id="bnt_back" layoutX="230.0" layoutY="325.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="95.0" text="Back" />
+    </children>
+</AnchorPane>
